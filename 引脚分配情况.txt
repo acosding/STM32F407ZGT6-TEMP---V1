@@ -1,0 +1,27 @@
+TIM2输入捕获测速
+G5-8对应
+
+舵机：TIM3的四个PWM通道
+
+电机控制：TIM5的四个PWM通道和PD15、PG2、PG3、PG4，
+
+USART1:调试
+USART2:上位机通信
+USART3:蓝牙
+USART6:保留
+
+IIC1:OLED
+IIC2:姿态传感器
+INT:PF2--GPIO_EXIT12
+IIC3:保留
+
+SPI1:保留
+
+步进电机1
+EN	PD1
+DIR	PD2
+PWM	PC6
+步进电机2
+EN	PD3
+DIR	PD4
+PWM	PC7
